@@ -1,0 +1,19 @@
+http://localhost:8080/note
+
+--include
+--silent
+
+Accept: application/json
+Connection: keep-alive
+Content-Type: application/json; charset=utf-8
+User-Agent: VRV
+
+#POST 
+#{
+#  "id": 1,
+#  "title": "test",
+#  "created_at":"test",
+#  "updated_at" :"test"
+#}
+
+GET 
